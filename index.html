@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <!--Mobile Functionality-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Custom Font-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Clock Angle Calculator</title>
+</head>
+
+
+<body>
+
+
+    <!--Navigation-->
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://github.com/ShubhamPal31/Clock-Angle-Calculator">Clock Angle Calculator</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <div class="container-fluid">
+        <div class="header">
+            <h1>Clock Angle Calculator</h1>
+            <img src="clock.png" alt="CLOCK">
+            <p class="lead">
+                <strong>1.</strong> Enter the position of Hour hand. <br>
+                <strong>2.</strong> Enter the position of Minutes hand.<br>
+                <strong>3.</strong> Press the <b>Calculate</b> button.<br>
+                <strong>4.</strong> Hurray!! The angle between hour hand and minute hand is displayed.<br>
+            </p>
+        </div>
+
+        <div class="input fields">
+            <div class="form-group">
+                <!--Hour Position Input-->
+                <label class="usr">Hour(s):</label>
+                <input type="text" class="form-control" id="hour" placeholder="Short Hand">
+            </div>
+
+            <div class="form-group">
+                <!--Minute Position Input-->
+                <label class="pwd">Minute(s):</label>
+                <input type="text" class="form-control" id="minute" placeholder="Big Hand">
+            </div>
+
+            <div class="form-group">
+                <!--Final Output-->
+                <button class="btn btn-default" type="submit">Calculate</button>
+                <input type="text" class="form-control" id="result" placeholder="Angle calculated is">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="angle.js"></script>
+
+
+</body>
+</html>
