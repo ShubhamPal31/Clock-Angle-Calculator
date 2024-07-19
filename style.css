@@ -1,0 +1,69 @@
+body {
+    background-color: #7eb89e;
+    font-family: Raleway;
+}
+
+.navbar, .navbar a {
+    font-size: 13px;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #0b1960;
+}
+.lead {
+    color: #1f1141;
+}
+
+.lead {
+    font-weight: lighter;
+    font-size: 1.1em;
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.form-group {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-default {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #252830;
+    width: 85px;
+}
+
+.btn-default:hover {
+    background-color: #ECECEC;
+    color: #85439f;
+    border-color: #0036ca;
+}
+
+.btn-default:visited {
+    background-color: #ECECEC;
+    color: #252830;
+    border-color: #252830;
+}
+
+#result {
+    display: inline;
+    width: 110px;
+}
